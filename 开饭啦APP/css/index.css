@@ -1,0 +1,423 @@
+/*
+* @Author: Administrator
+* @Date:   2017-12-06 18:44:22
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-12-14 20:34:26
+*/
+@import url('base.css');
+body{
+	background: #f9f8f6;
+	height: auto;
+}
+/* 头部开始 */
+header{
+	width: 7.5rem;
+	height: 1.92rem;
+	background: #f28161;
+	overflow: hidden;
+}
+
+.header-top{
+	width: 100%;
+	height: 0.36rem;
+	padding: 0 0.22rem;
+	margin-top: 0.26rem;
+	background: #f28161;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.header-topleft{
+	width: 0.74rem;
+	height: 100%;
+	background: #f28161;
+}
+.header-topright{
+	width: 0.36rem;
+	height: 100%;
+	background: #f28161;
+}
+.header-topcenter{
+	width: 2rem;
+	height: 100%;
+	background: #f28161;
+	position: relative;
+}
+.header-top .header-topcenter{
+	justify-content: center;
+}
+.text{
+	width: 7.02rem;
+	height: 0.6rem;
+	display: block;
+	margin-top: 0.28rem;
+	margin-left: 0.24rem;
+	border-radius: 0.16rem;
+	text-align: center;
+	border: none;
+	
+}
+.text:focus{
+	outline: none;
+}
+
+.iconfont{
+	font-family: 'iconfont';
+	font-size: 0.36rem;
+	color: #fffaff;
+}
+.header-topleft i{
+	font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.36rem;
+    display: block;
+    float: left;
+
+}
+.iconfont1{
+	font-size: 0.1rem;
+	float: right;
+	text-align: center;
+    line-height: 0.36rem;
+}
+.top-text{
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.36rem;
+	color: #ffffff;
+	left: 0.65rem;
+	top: 0;
+	display: block;
+	position: absolute;
+}
+/* 头部结束 */
+
+/* 头部下身体 开始 */
+.body{
+	width: 100%;
+	height: 3.52rem;
+	background: #f9f8f6;
+	border-bottom: 0.02rem solid #f3f2f0;
+}
+.body-list{
+	width: 7.02rem;
+	height: 3.2rem;
+	background: #ffffff;
+	margin: 0 auto;
+	border-bottom: 0.02rem solid #e8e8e8;
+	border-left: 0.02rem solid #e8e8e8;
+	border-right: 0.02rem solid #e8e8e8;
+	display: flex;
+	flex-wrap: wrap;
+}
+.item{
+	width: 1.745rem;
+	height: 1.59rem;
+	background: white;
+
+}
+.can{
+	margin: 0.26rem auto;
+	width: 0.7rem;
+	height: 0.7rem;
+	background: white;
+}
+.can img{
+	width: 0.7rem;
+	height: 0.7rem;
+}
+.item i{
+	width: 100%;
+	height: 0.23rem;
+	font-size: 0.23rem;
+	color: #333333;
+	text-align: center;
+	line-height: 0.23rem;
+	display: block;
+}
+/* 头部下身体 结束 */
+
+/* 分类框开始 */
+ul{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+li{
+	width: 50%;
+	height: 1.3rem;
+	border-bottom: 0.02rem solid #f2f2f2;
+	border-right: 0.02rem solid #f2f2f2;
+	background: white;
+	float: left;
+}
+ul li:nth-child(2n){
+	border-right: none;
+}
+.fenleikuang{
+	height: 100%;
+	width: 3rem;
+	margin-left: 0.6rem;
+	background: white;
+	display: block; 
+	position: relative;
+}
+ul li a p{
+	font-size: 0.26rem;
+	color: #323232;
+	position: absolute;
+	top: 0.35rem;
+	font-weight: bold;
+}
+ul li a i{
+	font-size: 0.18rem;
+	color: #979797;
+	position: absolute;
+	top: 0.75rem;
+	font-style: normal;
+}
+.img{
+	width: 1.22rem;
+	height: 1.02rem;
+	background: white;
+	float: right;
+	margin-left: 1.56rem;
+	margin-top: 0.1rem;
+}
+ul li a img{
+	width: 1.22rem;
+	height: 1.02rem;
+}
+/* 分类框结束 */
+
+/* 推荐开始 */
+.tuijian{
+	width: 100%;
+	height: auto;
+	background: white;
+	margin-top: 0.3rem;
+	border-top: 0.02rem solid #ededed; 
+	border-bottom: 0.02rem solid #ededed; 
+}
+.tuijian-top{
+	width: 100%;
+	height: 0.76rem;
+	background: white;
+}
+
+
+.tuijian-top i{
+	display: block;
+	width: 1.1rem;
+	height: 100%;
+	color: #343434;
+	margin: 0 auto;
+	font-size: 0.26rem;
+	line-height: 0.76rem;
+	font-weight: bold;
+
+
+}
+/* 推荐结束 */
+/* 菜单开始 */
+.caidan{
+	width: 7.3rem;
+	height: 3.2rem;
+	margin: 0 auto;
+	border: 0.01rem solid #e0dedf;
+	border-top: none;
+	padding-bottom: ;
+}
+.caidan a{
+	display: block;
+	width: 100%;
+	height: 2rem;
+}
+.caidan a img{
+	width: 100%;
+	height: 2rem;
+}
+.caidan-text{
+	width: 100%;
+	height: 0.24rem;
+	margin-top: 0.2rem;
+	position: relative;
+}
+.caidan-text i{
+	display: block;
+	width: 1.4rem;
+	height: 100%;
+	padding-left: 0.2rem;
+	font-size: 0.24rem;
+	color: #353535;
+	line-height: 0.24rem;
+}
+.xingji{
+	width: 1.15rem;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 1.5rem;
+	display: flex;
+	justify-content: space-between;
+}
+.xingji em{
+	display: block;
+	background: white;
+	width: 0.232rem;
+	height: 0.16rem; 
+	margin-top: 0.05rem;
+	font-size: 0.16rem;
+    text-align: center;
+    line-height: 0.16rem;
+    color: #fb6f00;
+}
+
+.iconfont{
+	font-family: 'iconfont';
+}
+.jiage{
+	width: 0.8rem;
+	height: 0.24rem;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.jiage em{
+	display: block;
+	width: 0.24rem;
+	height: 100%;
+	font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.24rem;
+    color: #e50400;
+    float: left;
+}
+.jiage-text{
+	width: 0.29rem;
+	height: 100%;
+	font-size: 0.21rem;
+	text-align: center;
+	line-height: 0.24rem;
+	color: #e50400;
+	float: right;
+	margin-right: 0.16rem;
+	
+}
+.caidan-bottom{
+	width: 100%;
+	height: 0.19rem;
+	margin-top: 0.18rem;
+}
+.caidan-bottom i{
+	display: block;
+	float: left;
+	width:2rem;
+	height: 0.19rem;
+	font-size: 0.1rem;
+	color: #666666;
+	line-height: 0.19rem;
+	margin-left: 0.2rem;
+}
+.bottom-right{
+	float: right;
+	width: 3.24rem;
+	height: 0.17rem;
+	background: red;
+}
+.candan-text{
+	width: 0.8rem;
+	height: 0.18rem;
+	background: yellow;
+	font-size: 0.18rem;
+	color: #979797;
+
+}
+/* 菜单结束 */
+.kong{
+	width: 100%;
+	height: 0.4rem;
+	background: #f7f5f6;
+}
+.kong1{
+	margin-bottom: 1rem;
+}
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: 0.98rem;
+	background: white;
+	position: fixed;
+	z-index: 999;
+	bottom: 0;
+	left: 0;
+}
+footer ul{
+	width: 100%;
+	height: 0.98rem;
+}
+footer ul li{
+	float: left;
+	width: 25%;
+	height: 100%;
+	background: white;
+}
+footer ul li a{
+	width: 0.48rem;
+	height: 0.74rem;
+	display: block;
+	background: white;
+	margin: 0 auto;
+	margin-top: 0.16rem;
+	position: relative;
+}
+footer ul li a i{
+	display: block;
+	width: 100%;
+	height: 0.4rem;
+	color: #686765;
+	font-size: 0.4rem;
+	text-align: center;
+	line-height: 0.4rem;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.footer-text{
+	width: 100%;
+	height: 0.18rem;
+	font-size: 0.18rem;
+	color: #444444;
+	text-align: center;
+	line-height: 0.18rem;
+	bottom: 0.06rem;
+	position: absolute;
+}
+/* .iconfont1{
+	color: #f68d77;
+} */
+.footer-text1{
+	color: #f68d77;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 501408 */
+  src: url('http://at.alicdn.com/t/font_501408_45g6yf8q4vzbmx6r.eot');
+  src: url('http://at.alicdn.com/t/font_501408_45g6yf8q4vzbmx6r.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_501408_45g6yf8q4vzbmx6r.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_501408_45g6yf8q4vzbmx6r.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_501408_45g6yf8q4vzbmx6r.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+}
+.ic1{
+	font-size: 0.36rem;
+	color: #686765;
+}
+.ic2{
+	color: #f68d77;
+}
+footer ul li a .ic2{
+	color: #f68d77;
+}
+/* 底部结束 */

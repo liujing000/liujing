@@ -1,0 +1,256 @@
+/*
+* @Author: Administrator
+* @Date:   2017-12-07 21:55:53
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-12-14 17:08:49
+*/
+@import url('base.css');
+body{
+	background:#f7f5f6;
+	height: auto;
+}
+
+header{
+	width: 7.5rem;
+	height: 0.88rem;
+	background: #f28969;
+	overflow: hidden;
+}
+
+.head-box{
+	width: 100%;
+	height: 0.32rem;
+	margin-top: 0.26rem;
+	position: relative;
+}
+.head-box a{
+	display: block;
+	width: 0.32rem;
+	height: 0.32rem;
+	margin-left: 0.3rem;
+}
+.head-text{
+	width: 0.64rem;
+	height: 0.32rem;
+	position: absolute;
+	top: 0;
+	left: 3.43rem;
+	font-size: 0.32rem;
+	color: white;
+	text-align: center;
+	line-height: 0.32rem;
+
+}
+
+.iconfont{
+	font-family: 'iconfont';
+}
+.head-box a i{
+	display: block;
+	font-size: 0.32rem;
+	color: white;	
+}
+
+/* 菜单开始 */
+.caidan{
+	width: 7.3rem;
+	height: 3.1rem;
+	margin: 0 auto;
+	border: 0.01rem solid #e0dedf;
+	border-top: none;
+	
+}
+.caidan a{
+	display: block;
+	width: 100%;
+	height: 2rem;
+}
+.caidan a img{
+	width: 100%;
+	height: 2rem;
+}
+.caidan-text{
+	width: 100%;
+	height: 0.24rem;
+	margin-top: 0.2rem;
+	position: relative;
+}
+.caidan-text i{
+	display: block;
+	width: 1.4rem;
+	height: 100%;
+	padding-left: 0.2rem;
+	font-size: 0.24rem;
+	color: #353535;
+	line-height: 0.24rem;
+}
+.xingji{
+	width: 1.15rem;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 1.5rem;
+	display: flex;
+	justify-content: space-between;
+}
+.xingji em{
+	display: block;
+	background: white;
+	width: 0.232rem;
+	height: 0.16rem; 
+	margin-top: 0.05rem;
+	font-size: 0.16rem;
+    text-align: center;
+    line-height: 0.16rem;
+    color: #fb6f00;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 501408 */
+  src: url('http://at.alicdn.com/t/font_501408_ppgrtoc880aa714i.eot');
+  src: url('http://at.alicdn.com/t/font_501408_ppgrtoc880aa714i.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_501408_ppgrtoc880aa714i.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_501408_ppgrtoc880aa714i.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_501408_ppgrtoc880aa714i.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+}
+.jiage{
+	width: 0.8rem;
+	height: 0.24rem;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.jiage em{
+	display: block;
+	width: 0.24rem;
+	height: 100%;
+	font-size: 0.24rem;
+    text-align: center;
+    line-height: 0.24rem;
+    color: #e50400;
+    float: left;
+}
+.jiage-text{
+	width: 0.29rem;
+	height: 100%;
+	font-size: 0.21rem;
+	text-align: center;
+	line-height: 0.24rem;
+	color: #e50400;
+	float: right;
+	margin-right: 0.16rem;
+	
+}
+.caidan-bottom{
+	width: 100%;
+	height: 0.19rem;
+	margin-top: 0.18rem;
+}
+.caidan-bottom i{
+	display: block;
+	float: left;
+	width: 1.8rem;
+	height: 0.19rem;
+	font-size: 0.15rem;
+	color: #666666;
+	line-height: 0.19rem;
+	margin-left: 0.2rem;
+}
+.bottom-right{
+	float: right;
+	width: 3.24rem;
+	height: 0.17rem;
+	background: red;
+}
+.candan-text{
+	width: 0.8rem;
+	height: 0.18rem;
+	background: yellow;
+	font-size: 0.18rem;
+	color: #979797;
+
+}
+.caidan11{
+	margin-top: 0.2rem;
+}
+/* 菜单结束 */
+.kong{
+	width: 100%;
+	height: 0.4rem;
+	background: #f7f5f6;
+
+}
+.kong5{
+	margin-bottom: 1rem;
+}
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: 0.98rem;
+	background: white;
+	position: fixed;
+	z-index: 999;
+	bottom: 0;
+	left: 0;
+}
+footer ul{
+	width: 100%;
+	height: 0.98rem;
+}
+footer ul li{
+	float: left;
+	width: 25%;
+	height: 100%;
+	background: white;
+}
+footer ul li a{
+	width: 0.48rem;
+	height: 0.74rem;
+	display: block;
+	background: white;
+	margin: 0 auto;
+	margin-top: 0.16rem;
+	position: relative;
+}
+footer ul li a i{
+	display: block;
+	width: 100%;
+	height: 0.4rem;
+	color: #686765;
+	font-size: 0.4rem;
+	text-align: center;
+	line-height: 0.4rem;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.footer-text{
+	width: 100%;
+	height: 0.18rem;
+	font-size: 0.18rem;
+	color: #444444;
+	text-align: center;
+	line-height: 0.18rem;
+	bottom: 0.06rem;
+	position: absolute;
+}
+.iconfont1{
+	color: #f68d77;
+}
+.footer-text1{
+	color: #f68d77;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 501408 */
+  src: url('http://at.alicdn.com/t/font_501408_zhkdh39kjuu9pb9.eot');
+  src: url('http://at.alicdn.com/t/font_501408_zhkdh39kjuu9pb9.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_501408_zhkdh39kjuu9pb9.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_501408_zhkdh39kjuu9pb9.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_501408_zhkdh39kjuu9pb9.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+}
+/* 底部结束 */

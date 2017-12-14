@@ -1,0 +1,236 @@
+/*
+* @Author: Administrator
+* @Date:   2017-12-07 16:41:05
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-12-10 18:49:55
+*/
+@import url('base.css');
+body{
+	background: #f9f8f6;
+	height: auto;
+}
+/* 头部开始 */
+header{
+	height: 4.78rem;
+	width: 7.5rem;
+	background: #f2805c;
+	overflow: hidden;
+}
+.header-top{
+	width: 100%;
+	height: 4.17rem;
+	background: #f2805c;
+	overflow: hidden;
+}
+.header-bottom{
+	width: 100%;
+	height: 0.61rem;
+	background: #f4906e;
+	overflow: hidden;
+}
+.top1{
+	width: 100%;
+	height: 0.32rem;
+	margin-top: 0.26rem;
+	background: #f2805c;
+	position: relative;
+
+}
+.top1-left{
+	font-size: 0.32rem;
+	color: white;
+	text-align: center;
+	line-height: 0.32rem;
+	width: 0.65rem;
+	height: 100%;
+	background: #f2805c;
+	margin: 0 auto;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 501408 */
+  src: url('http://at.alicdn.com/t/font_501408_ppgrtoc880aa714i.eot');
+  src: url('http://at.alicdn.com/t/font_501408_ppgrtoc880aa714i.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_501408_ppgrtoc880aa714i.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_501408_ppgrtoc880aa714i.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_501408_ppgrtoc880aa714i.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: 'iconfont';
+}
+.top1 i{
+	font-size: 0.32rem;
+    text-align: center;
+    line-height: 0.32rem;
+    display: block;
+    width: 0.32rem;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0.3rem;
+    color: white;
+}
+.top2{
+	width: 2.71rem;
+	height: 2.62rem;
+	background: black;
+	margin-top: 0.38rem;
+	margin-left: 2.35rem; 
+}
+.top2 img{
+	width: 2.71rem;
+	height: 2.62rem;
+}
+.top3{
+	display: block;
+	width: 100%;
+	height: 0.28rem;
+	margin-top: 0.1rem;
+	font-size: 0.28rem;
+	color: white;
+	text-align: center;
+	line-height: 0.28rem;
+}
+.bottom1{
+	width: 100%;
+	height: 0.21rem;
+	margin-top: 0.23rem;
+}
+.bottom1 pre{
+	display: block;
+	float: left;
+	font-size: 0.21rem;
+	color: white;
+	text-align: center;
+	line-height: 0.21rem;	
+}
+.bottom1 pre:first-child{
+	width: 2.31rem;
+	height: 0.21rem;
+	border-right: 0.01rem solid white;
+}
+.bottom1 pre:nth-child(2){
+	width: 2.8rem;
+	height: 0.21rem;
+	border-right: 0.01rem solid white;
+}
+.bottom1 pre:nth-child(3){
+	width: 2.38rem;
+	height: 0.21rem;
+}
+/* 头部结束 */
+
+/* 身体开始 */
+.body{
+	width: 100%;
+	height: 1.51rem;
+	background: white;
+}
+
+.body1{
+	width: 7.2rem;
+	height: 1.51rem;
+	background: white;
+	border-bottom: 0.01rem solid #dedcdd;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.body2{
+	width: 6.29rem;
+	height:0.51rem;
+	background: white;
+	margin:0 auto;
+	margin-top: 0.49rem;
+	position: relative;
+}
+.body2 i{
+	color: #666666;
+	font-size: 0.51rem;
+	text-align: center;
+    line-height: 0.51rem;
+    display: block;
+    width: 0.51rem;
+    height: 100%;
+
+}
+.body-text{
+	width: 0.96rem;
+	height: 0.51rem;
+	color: #363636;
+	font-size: 0.24rem;
+	line-height: 0.51rem;
+	position: absolute;
+	top: 0;
+	left: 0.8rem;
+}
+.body2 em{
+	display: block;
+	width: 0.22rem;
+	height: 0.28rem;
+	color: #979998;
+	font-size: 0.28rem;
+	text-align: center;
+	line-height: 0.28rem;
+	position: absolute;
+	right: 0;
+	top: 0.115rem;
+}
+/* 身体结束 */
+
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: 0.98rem;
+	background: white;
+	position: fixed;
+	z-index: 999;
+	bottom: 0;
+	left: 0;
+}
+footer ul{
+	width: 100%;
+	height: 0.98rem;
+}
+footer ul li{
+	float: left;
+	width: 25%;
+	height: 100%;
+	background: white;
+}
+footer ul li a{
+	width: 0.48rem;
+	height: 0.74rem;
+	display: block;
+	background: white;
+	margin: 0 auto;
+	margin-top: 0.16rem;
+	position: relative;
+}
+footer ul li a i{
+	display: block;
+	width: 100%;
+	height: 0.4rem;
+	color: #686765;
+	font-size: 0.4rem;
+	text-align: center;
+	line-height: 0.4rem;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.footer-text{
+	width: 100%;
+	height: 0.18rem;
+	font-size: 0.18rem;
+	color: #444444;
+	text-align: center;
+	line-height: 0.18rem;
+	bottom: 0.06rem;
+	position: absolute;
+}
+.iconfont1{
+	color: #f68d77;
+}
+.footer-text1{
+	color: #f68d77;
+}
+/* 底部结束 */

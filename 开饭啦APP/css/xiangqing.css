@@ -1,0 +1,396 @@
+/*
+* @Author: Administrator
+* @Date:   2017-12-14 20:55:25
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-12-14 23:23:50
+*/
+@import url('base.css');
+body{
+	background: #f9f8f6;
+	height: auto;
+	/* overflow: hidden; */
+}
+header{
+    width: 7.5rem;
+	height: 7rem;
+	background: white;
+	overflow: hidden;
+	border-bottom: 0.02rem solid #d4d4d4;
+}
+.head{
+	display: block;
+	width: 100%;
+	height: 4.22rem;
+	/* background: black; */
+	position: relative;
+}
+.head img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: relative;
+
+}
+a .ico-box{
+	width: 100%;
+	height: 0.65rem;
+	position: absolute;
+	top: 0.17rem;
+	left: 0;
+	
+	padding: 0 0.25rem;
+}
+.ico-left{
+	display: block;
+	width: 0.65rem;
+	height: 0.65rem;
+	border-radius: 50%;
+	background: rgba(0, 0, 0, 0.3);
+	float: left;
+
+} 
+.ico-right{
+	display: block;
+	width: 0.65rem;
+	height: 0.65rem;
+	border-radius: 50%;
+	background: rgba(0, 0, 0, 0.3);
+	float: right;
+}
+.ico-box i{
+	display: block;
+	width: 0.65rem;
+	height: 0.65rem; 
+	font-size: 0.4rem;
+	color: white;
+	text-align: center;
+	line-height: 0.65rem;
+}
+
+@font-face {
+  font-family: 'iconfont';  /* project id 501408 */
+  src: url('http://at.alicdn.com/t/font_501408_20uz1uhml8ebqpvi.eot');
+  src: url('http://at.alicdn.com/t/font_501408_20uz1uhml8ebqpvi.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_501408_20uz1uhml8ebqpvi.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_501408_20uz1uhml8ebqpvi.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_501408_20uz1uhml8ebqpvi.svg#iconfont') format('svg');
+}
+.iconfont{
+
+	font-family: 'iconfont';
+}
+header h1{
+	padding-top: 0.37rem;
+	padding-left: 0.33rem;
+	font-size: 0.3rem;
+	color: #212121;
+	font-weight: normal;
+	/* background: white; */
+}
+header h2{
+	padding-top: 0.37rem;
+	padding-left: 0.33rem;
+	font-size: 0.25rem;
+	color: #8f8f8f;
+	font-weight: normal;
+}
+.shop{
+	width: 100%;
+	height: 0.7rem;
+	margin-top: 0.2rem;
+	padding: 0 0.1rem 0 0.33rem;
+	background: white;
+}
+.jiage{
+	width: 2.7rem;
+	height: 100%;
+	padding: 0.18rem 0;
+	/* background: black; */
+	float: left;
+}
+.jiage i{
+	color: #fc4d3b;
+	font-size: 0.34rem;
+	float: left;
+	padding-right: 0.1rem;
+	line-height: 
+	
+}
+.jiage p{
+	color: #fc4d3b;
+}
+.jiaru{
+	display: block;
+	float: right;
+	width: 1.98rem;
+	height: 0.7rem;
+	border-radius: 0.2rem;
+	background: #ffd161;
+	font-size: 0.27rem;
+	color: #38300c;
+	text-align: center;
+	line-height: 0.7rem; 
+}
+.middle{
+	width: 100%;
+	height: 1.68rem;
+	background: white;
+	padding-left: 0.3rem;
+	overflow: hidden;
+}
+.mid{
+	height: 1.35rem;
+	width: 100%;
+	margin-top: 0.33rem;
+	border-bottom: 0.02rem solid #dbdbdb;
+}
+.mid div{
+	width: 2rem;
+	height: 0.26rem;
+	padding-left: 0.15rem;
+	border-left: 0.02rem solid #ffcf5e;
+	font-size: 0.26rem;
+	line-height: 0.26rem;
+	color: #a5a5a5;
+}
+.mid h3{
+	font-size: 0.25rem;
+	color: #202020;
+	padding-top: 0.44rem;
+}
+.middle1{
+	margin-top: 0.2rem;
+}
+
+
+
+footer{
+	width: 100%;
+	height: 0.98rem;
+	background: #f5f5f5;
+	position: fixed;
+	z-index: 999;
+	bottom: 0;
+	left: 0;
+	border-top: 0.01rem solid #d4d4d4;
+}
+.shopcar{
+	width: 0.98rem;
+	height: 0.98rem;
+	background: #7e7e7e;
+	position: fixed;
+	z-index: 999;
+	bottom: 0.3rem;
+	left: 0.3rem;
+	border-radius: 50%;
+}
+.shopcar em{
+	display: block;
+	width: 0.98rem;
+	height: 0.98rem;
+	font-size: 0.5rem;
+	color: white;
+	text-align: center;
+	line-height: 0.98rem;
+}
+.shoptext{
+	width: 2.9rem;
+	height: 0.28rem;
+	font-size: 0.28rem;
+	color: #b4b4b4;
+	line-height: 0.28rem;
+	margin-top: 0.4rem;
+	margin-left: 1.8rem;
+	float: left;
+}
+.shoptext1{
+	width: 1.74rem;
+	height: 0.66rem;
+	background: #cccccc;
+	border-radius: 0.2rem;
+	float: right;
+	margin-top: 0.15rem;
+	margin-right: 0.3rem;
+}
+.shoptext2{
+	width: 1.1rem;
+	height: 0.24rem;
+	margin: 0 auto;
+	margin-top: 0.21rem;
+}
+.shoptext3{
+	width: 0.52rem;
+	height: 0.24rem;
+	font-size: 0.24rem;
+	color: white;
+	line-height: 0.24rem;
+	float: left;
+}
+.shoptext4{
+	float: right;
+	width: 0.58rem;
+	height: 0.24rem;
+
+}
+.shoptext4 em{
+	display: block;
+	width: 0.24rem;
+	height: 0.24rem;
+	font-size: 0.2rem;
+	color: white;
+	text-align: center;
+	line-height: 0.24rem;
+	float: left;
+
+}
+.shoptext5{
+	float: left;
+	font-size: 0.24rem;
+	line-height: 0.24rem;
+	color: white;
+
+}
+.caipin-list:last-child{
+	margin-bottom: 1.5rem;
+}
+
+
+.pinglun{
+	width: 100%;
+	height: 4rem;
+	border-bottom: 0.01rem solid #ebebeb;
+	background: white;
+	overflow: hidden;
+	/* margin-bottom: 2rem; */
+	
+
+}
+.pinglun1{
+	margin-bottom: 2rem;
+}
+.pinglun-top{
+	width: 100%;
+	height: 0.81rem;
+	background: white;
+	margin-top: 0.35rem;
+}
+.pinglun-topleft{
+	width: 4.19rem;
+	height: 0.81rem;
+	float: left;
+	background: white;
+}
+.pinglun-topleft1{
+	width: 1.14rem;
+	height: 100%;
+	float: left;
+	padding-left: 0.32rem;
+	background: white;
+}
+.left1-img{
+	width: 0.82rem;
+	height: 100%;
+	background: white;
+	border-radius: 50%;
+}
+.left1-img img{
+	width: 0.82rem;
+	height: 100%;
+	border-radius: 50%;
+
+}
+.pinglun-topleft2{
+	width: 3.05rem;
+	height: 100%;
+	background: white;
+	float: right;
+	padding-left: 0.23rem;
+}
+.topleft2-text{
+	width: 100%;
+	height: 0.35rem;
+	background: white;
+	font-size: 0.32rem;
+	color: #282828;
+	line-height: 0.35rem;
+}
+.topleft2-text1{
+	width: 100%;
+	height: 0.24rem;
+	background: white;
+	margin-top: 0.22rem;
+}
+.topleft2-text2{
+	width: 1.19rem;
+	height: 100%;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	float: left;
+
+}
+.topleft2-text2 li em{
+	display: block;
+	width: 20%;
+	height: 100%;
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.24rem;
+	color: #fcd162;
+
+}
+.topleft2-text3{
+	float: right;
+	width: 1.38rem;
+	height: 100%;
+	background: white;
+	font-size: 0.24rem;
+	color: #8f8f8f;
+	line-height: 0.24rem;
+}
+.pinglun-topright{
+	float: right;
+	width: 1.54rem;
+	height: 0.45rem;
+	font-size: 0.19rem;
+	color: #595959;
+	line-height: 0.45rem;
+}
+.pinglun-middle{
+	width: 100%;
+	height: 2rem;
+	background: white;
+	margin-top: 0.48rem;
+	padding-left: 1.37rem;
+}
+.pinglun-middle p{
+	width: 5.81rem;
+	height: 0.74rem;
+	background: white;
+	font-size: 0.27rem;
+	color: #222222;
+}
+.middle-text{
+	width: 100%;
+	height: 0.24rem;
+	background: white;
+	margin-top: 0.32rem;
+}
+.middle-text em{
+	display: block;
+	width: 0.24rem;
+	height: 0.24rem;
+	font-size: 0.24rem;
+	color: #a5a5a5;
+	line-height: 0.24rem;
+	float: left;
+}
+.middle-text1{
+	float: left;
+	width: 5.55rem;
+	height: 100%;
+	padding-left: 0.18rem;
+	font-size: 0.24rem;
+	color: #596583;
+	line-height: 0.24rem;
+}
